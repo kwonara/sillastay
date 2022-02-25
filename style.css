@@ -170,7 +170,7 @@ nav{
     text-shadow: 1px 1px 1px rgb(0,0,0,0.3);
     padding: 0 15px;
 }
-.logo{
+.logo h1{
     font-size: 1.8rem;
     font-weight: bold;
     color: #fff;
