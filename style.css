@@ -170,8 +170,9 @@ nav{
     text-shadow: 1px 1px 1px rgb(0,0,0,0.3);
     padding: 0 15px;
 }
-.logo > h1{
+.logo{
     font-size: 1.8rem;
+    font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px 1px rgb(0,0,0,0.3);
     letter-spacing: 5px;
@@ -182,10 +183,9 @@ nav{
 /*===========offer section==========*/
 #offer{
     width: 1200px;
-    margin: auto;
-    padding-bottom: 90px;
-    position: relative;
     overflow: hidden;
+    margin: auto;
+    position: relative;
 }
 .title{
     text-align: center;
@@ -202,36 +202,53 @@ nav{
     font-weight: lighter;
     letter-spacing: 3px;
 }
-.wrap{
-    width: 200%;
+.offItems {
+    width: 380px;
+    margin: 0 10px;
 }
-.box{
-    width: 16.66%;
-    float: left;
-    cursor: pointer;
-    padding: 0 10px;
+div {
+    display: block;
 }
-.box > img{width: 100%;}
-.box h3{
+#slide_img {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    left: -400px;
+    margin: auto;
+    justify-content: flex-start;
+    padding-bottom: 60px;
+}
+.offItems h3{
     font-size: 19px;
     font-weight: bold;
     line-height: 60px;
 }
-.box p{
+.offItems p{
     font-size: 14px;
     line-height: 1.5;
 }
-.box h4{
+.offItems h4{
     font-size: 19px;
     font-weight: bold;
     line-height: 60px;
 }
-.box .line{
+.offItems .line{
     width: 35%;
     padding: 5px 0;
     background-color: #514e4e;
     color: #fff;
     text-indent: 9px;
+}
+
+#right_arr{
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translateY(-50%);
+}
+#left_arr{
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
 }
 /*===========membership section==========*/
 #membership{
@@ -418,3 +435,5 @@ footer{
     font-size: 14px;
     line-height: 1.5;
 }
+
+/*===========*/
